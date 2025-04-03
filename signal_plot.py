@@ -17,7 +17,7 @@ plt.title('Continuous Signal')
 plt.xlabel('Time [s]')
 plt.ylabel('Amplitude')
 
-# 绘制离散信号
+# 绘制离散信号1
 plt.subplot(1, 2, 2)
 plt.stem(t_discrete, y_discrete)
 plt.title('Discrete Signal')
@@ -26,4 +26,4 @@ plt.ylabel('Amplitude')
 
 plt.tight_layout()
 plt.show()
-    
+ 
